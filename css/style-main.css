@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+    height: 932px;  
+}
+.container{
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+    height: 932px;
+}
+.section-one{
+    height: 100%;
+    position: relative;
+    
+}
+/* width: 340px;
+    height: 340px; */
+.hero-img{
+    width: 451px;
+    height: 420px;
+    margin: 75px 75px;
+    /* width: clamp(450px, 100vw - 100px, 400px); */
+
+
+
+}
+.first-section{
+    background-image: url('./images/final.svg');
+    background-size: cover;
+    background-position: center center;
+    width: 529px;
+}
+.title-section  {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #151453;
+    margin: 16px 0;
+  }
+.logo{
+    padding: 19px;
+    width: 70px;
+    height: 46px;
+}
+
+.download-img{
+    width: 220px;
+    margin: 5px 100px;
+}
+.footer{
+    height: 200px;
+}
+.wave-footer{
+    position: relative;
+}
+
+.info-mail{
+    color: #151453;
+    text-decoration: none;
+}
+
+.content{
+    position: absolute;
+    top: 56%
+}
+.bg-main{
+    position: absolute;
+    height: 690px;
+    width: 455px;
+    background-size: cover;
+    background-position: center center;
+}
+.main-img{
+    position: absolute;
+    
+    /* width: 480px; */
+    width: 560px;
+    /* position: absolute; */
+    /* width: 480px; */
+    /* width: 425px; */
+    transform: rotate(0deg);
+}
+.wave-footer{
+    width: 460px;
+
+}
+
+.footer{
+ /* background-color: #151453;    */
+ height: 100%;
+}
+.img-logo{
+    width: 100px;
+    height: auto;
+    margin-top: 36px;
+}
+
+
+.content{
+    background-image:url('../image/Mediamodifier-Design\ \(3\).svg');
+
+background-position: center center;
+}
+/* .content-footer{
+    display: flex;
+    justify-content: space-around;
+} */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 74px;
+    width: 460px;
+   
+     background-image: url('../image/wave\ \(4\).svg');
+    background-size: cover;
+    border-radius: 232px 76px 0 0;
+    margin-top: 92px;
+
+}
+.content-footer::after{
+    content: '';
+}
+.title-download{
+    font-size: 30px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-text{
+    color:#151453;
+
+}
+.info-title{
+    font-size: 28px;
+}
+.footer-text{
+    width:300px
+}
+.phone{
+    width: 60px;
+    padding: 14px;
+}
+.info-phone ,.info-mail{
+    font-size:24px
+}
+.footer-custom{
+    /* background-image: url('../image/finallll.png');
+position: relative; */
+/* background-image: url('../image/finallll.png'); */
+    position: relative;
+    background-size: cover;
+    top: 28px;
+    background-position: top right;
+}
+/* .img-footer{
+    
+} */
+.footer-custom-content{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    background-image: url('../images/shape_design.svg');
+    left: 30px;
+
+}

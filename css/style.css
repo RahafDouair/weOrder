@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* width: 440px;
+    margin: 0 auto;
+    padding:0; */
+    width: 430px;
+    margin: 0 auto;
+    padding: 0;
+    height: 932px;
+}
+.section-one{
+    /* background-color: #FFCD05; */
+    /* background-image: url('../image/svg\ \(9\).png'); */
+    height: 100%;
+    position: relative;
+    
+}
+/* .section-one:after{
+    content:'22222';
+    background-color:aqua;
+    position: absolute;
+    border-radius:23% 77% 49% 51% / 59% 30% 70% 41%  ;
+    
+} */
+.image-bg{
+    /* width: 450px; */
+    height: 100%;
+    margin: 10px 3px;
+    width: clamp(450px, 100vw - 100px, 400px);
+
+
+}
+.title-section  {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #151453;
+    margin: 16px 0;
+  }
+.logo{
+    padding: 19px;
+    width: 70px;
+    height: 46px;
+}
+
+.download-img{
+    /* width: 164px;
+    margin: 0 48px; */
+    width: 220px;
+    margin: 5px 100px;
+}
+.footer{
+    height: 200px;
+}
+.wave-footer{
+    /* background-color: #FFCD05; */
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 56%
+}
+.bg-main{
+    position: absolute;
+    height: 690px;
+    width: 455px;
+    /* background-color: #FFCD05; */
+    background-image: url('../image/main-img.png');
+    
+    /* background-repeat: revert; */
+    background-size: cover;
+    background-position: center center;
+}
+.wave-footer{
+    width: 460px;
+
+}
+
+.footer{
+ /* background-color: #151453;    */
+ height: 100%;
+}
+.img-logo{
+    width: 100px;
+    height: auto;
+    margin-top: 36px;
+}
+
+
+.content{
+    background-image:url('../image/content.svg');
+
+background-position: center center;
+}
+/* .content-footer{
+    display: flex;
+    justify-content: space-around;
+} */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 74px;
+    width: 460px;
+    /* background-image: url('../image/svg\ \(17\).png'); */
+    /* background-image: url('../image/wave\ \(4\).svg'); */
+    /* background-color: #FFCD05;
+     */
+     background-image: url('../image/wavey.svg');
+    background-size: cover;
+    border-radius: 232px 76px 0 0;
+    margin-top: 92px;
+
+}
+.content-footer::after{
+    content: '';
+}
+.title-download{
+    font-size: 34px;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-text{
+    color:#151453
+}
+.info-title{
+    font-size: 20px;
+}
+.footer-custom{
+    /* background-image: url('../image/finallll.png');
+position: relative; */
+/* background-image: url('../image/finallll.png'); */
+    position: relative;
+    background-size: cover;
+    top: 28px;
+    background-position: top right;
+}
+/* .img-footer{
+    
+} */
+.footer-custom-content{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    background-image: url('../images/shape_design.svg');
+
+}

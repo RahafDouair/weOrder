@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-sm {
+    background: red;
+    width: 100%;
+    max-width: 350px; /* Set a maximum width of 350px */
+  }
